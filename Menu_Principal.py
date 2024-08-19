@@ -49,7 +49,7 @@ if __name__ == "__main__":
         print(f"{GREEN}{BOLD}----------------------------------------------------------------------{RESET}")
         print(f"{GREEN}{BOLD}----------------------------------------------------------------------{RESET}")
         while True:
-            juego = input(f"{YELLOW}{BOLD}Escriba S para empezar a jugar, cualquier otra tecla cerrara el juego: {RESET}")
+            juego = input(f"{YELLOW}{BOLD}Escriba S para empezar a jugar, cualquier otra tecla cerrara el juego: {RESET}").lower()
 
             if juego == "s":
                 menu()
